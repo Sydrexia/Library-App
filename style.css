@@ -1,0 +1,17 @@
+.form {
+    margin: 5vw 25vw;
+    display: grid;
+}
+
+.library {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    gap: 5px;
+}
+
+.card {
+    /* margin: 5vw 30vw; */
+    box-shadow: 0 4px 8px 0 rgba(46, 45, 45, 0.63);
+    border-radius: 10px;
+    text-align: center;
+}
